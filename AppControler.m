@@ -8,75 +8,25 @@
 
 #import "AppControler.h"
 
+#import "PDSFile.h"
+
 
 @implementation AppControler
 
+// Handle a file dropped on the dock icon
+- (BOOL)application:(NSApplication *)sender openFile:(NSString *)path
+{
+	
+	// !! Do something here with the file path !!
+	[filenameField setStringValue:path];
+	return YES;
+}
+
 - (IBAction)viewLabels:(id)sender
-{
-	if (task) {
-		[task interrupt];
-	} else {
-		task = [[NSTask alloc] init];
-		[task setLaunchPath:@"/Users/ryan/Dev/PyPDS/src/pds-labels.py"];
-		
-		NSArray *args = [NSArray arrayWithObjects:[filenameField stringValue], nil];
-		[task setArguments:args];
-		
-		// Release the old pipe.
-		[pipe release];
-		// Create a new pipe.
-		pipe = [[NSPipe alloc] init];
-		[task setStandardOutput:pipe];
-		
-		NSFileHandle *fh = [pipe fileHandleForReading];
-		
-		NSNotificationCenter *nc;
-		nc = [NSNotificationCenter defaultCenter];
-		[nc removeObserver:self];
-		[nc addObserver:self
-			   selector:@selector(dataReady:)
-				   name:NSFileHandleReadCompletionNotification
-				 object:fh];
-		[nc addObserver:self
-			   selector:@selector(taskTerminated:)
-				   name:NSTaskDidTerminateNotification
-				 object:task];
-		[task launch];
-		[outputView setString:@""];
-		
-		[fh readInBackgroundAndNotify];
-	}
-}
-
-- (void)appendData:(NSData	*)d
-{
-	NSString *s = [[NSString alloc]	initWithData:d encoding:NSUTF8StringEncoding];
-	NSTextStorage *ts = [outputView textStorage];
-	[ts replaceCharactersInRange:NSMakeRange([ts length], 0) withString:s];
-	[s release];
-}
-
-- (void)dataReady:(NSNotification *)n
-{
-	NSData *d;
-	d = [[n userInfo] valueForKey:NSFileHandleNotificationDataItem];
-	
-	NSLog(@"dataReady:%d bytes", [d length]);
-	
-	if ([d length]) {
-		[self appendData:d];
-	}
-	
-	if (task)
-		[[pipe fileHandleForReading] readInBackgroundAndNotify];
-}
-
-- (void)taskTerminated:(NSNotification *)note
-{
-	NSLog(@"taskTerminated:");
-	
-	[task release];
-	task = nil;
+{	
+	PDSFile *pdsFile;
+	pdsFile = [[PDSFile alloc] initWithFile:[filenameField stringValue]];
+	[outputView setString:[pdsFile labels]];
 }
 
 @end
