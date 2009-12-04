@@ -13,8 +13,10 @@
 	IBOutlet NSTextView *outputView;
 	IBOutlet NSTextField *filenameField;
 	IBOutlet NSButton *viewLabelsButton;
+	IBOutlet NSView *imageView;
 	NSTask *task;
 	NSPipe *pipe;
 }
+- (BOOL)application:(NSApplication *)sender openFile:(NSString *)path;
 - (IBAction)viewLabels:(id)sender;
 @end
