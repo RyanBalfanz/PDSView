@@ -29,18 +29,14 @@
 	
 	if ([pdsFile labels])
 	{
-		NSLog(@"got labels");
 		[outputView setString:[pdsFile labels]];
 	}
 	else
 	{
 		NSLog(@"Did not get labels");
 	}
-
-
 	if ([pdsFile image])
 	{
-		NSLog(@"image size: %d", [[pdsFile image] size]);
 		[imageView setImage:[pdsFile image]];
 	}
 	else
