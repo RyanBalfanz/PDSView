@@ -13,7 +13,8 @@
 	IBOutlet NSTextView *outputView;
 	IBOutlet NSTextField *filenameField;
 	IBOutlet NSButton *viewLabelsButton;
-	IBOutlet NSView *imageView;
+//	IBOutlet NSView *imageView;
+	IBOutlet NSImageView *imageView;
 	NSTask *task;
 	NSPipe *pipe;
 }
