@@ -19,14 +19,23 @@
 	
 	// !! Do something here with the file path !!
 	[filenameField setStringValue:path];
+	[self updateViewsWithPDSFile:path];
 	return YES;
 }
 
 - (IBAction)viewLabels:(id)sender
 {	
+	[self updateViewsWithPDSFile:[filenameField stringValue]];
+}
+
+- (void)updateViewsWithPDSFile:(NSString *)filename
+{
+	[outputView setString:@""];
+	[imageView setImage:nil];
+	
 	PDSFile *pdsFile;
 	pdsFile = [[PDSFile alloc] initWithFile:[filenameField stringValue]];
-	
+
 	if ([pdsFile labels])
 	{
 		[outputView setString:[pdsFile labels]];

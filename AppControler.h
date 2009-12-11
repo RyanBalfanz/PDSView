@@ -10,14 +10,16 @@
 
 
 @interface AppControler : NSObject {
-	IBOutlet NSTextView *outputView;
 	IBOutlet NSTextField *filenameField;
-	IBOutlet NSButton *viewLabelsButton;
-//	IBOutlet NSView *imageView;
+	IBOutlet NSButton *viewLabelsButton;	
+	IBOutlet NSTextView *outputView;
 	IBOutlet NSImageView *imageView;
+	
 	NSTask *task;
 	NSPipe *pipe;
 }
-- (BOOL)application:(NSApplication *)sender openFile:(NSString *)path;
 - (IBAction)viewLabels:(id)sender;
+
+- (BOOL)application:(NSApplication *)sender openFile:(NSString *)path;
+- (void)updateViewsWithPDSFile:(NSString *)filename;
 @end

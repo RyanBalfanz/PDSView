@@ -19,10 +19,7 @@
 		947D799010C8BEAA007D445D /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 947D798910C8BEAA007D445D /* SBJsonParser.m */; };
 		947D799110C8BEAA007D445D /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 947D798B10C8BEAA007D445D /* SBJsonWriter.m */; };
 		94B4162C10C6FFDE00CD3091 /* AppControler.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B4162B10C6FFDE00CD3091 /* AppControler.m */; };
-		94D5AEFE10C78D7200075645 /* PDSImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D5AEFD10C78D7200075645 /* PDSImageView.m */; };
 		94DFD63610C7C8D00003C4F1 /* PDSFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DFD63510C7C8D00003C4F1 /* PDSFile.m */; };
-		94DFD63A10C7CC810003C4F1 /* PDSLabelsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DFD63910C7CC810003C4F1 /* PDSLabelsView.m */; };
-		94DFD6BC10C7EF720003C4F1 /* PDSFileControler.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DFD6BB10C7EF720003C4F1 /* PDSFileControler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,14 +50,8 @@
 		947D798B10C8BEAA007D445D /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
 		94B4162A10C6FFDE00CD3091 /* AppControler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppControler.h; sourceTree = "<group>"; };
 		94B4162B10C6FFDE00CD3091 /* AppControler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppControler.m; sourceTree = "<group>"; };
-		94D5AEFC10C78D7200075645 /* PDSImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDSImageView.h; sourceTree = "<group>"; };
-		94D5AEFD10C78D7200075645 /* PDSImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDSImageView.m; sourceTree = "<group>"; };
 		94DFD63410C7C8D00003C4F1 /* PDSFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDSFile.h; sourceTree = "<group>"; };
 		94DFD63510C7C8D00003C4F1 /* PDSFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDSFile.m; sourceTree = "<group>"; };
-		94DFD63810C7CC810003C4F1 /* PDSLabelsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDSLabelsView.h; sourceTree = "<group>"; };
-		94DFD63910C7CC810003C4F1 /* PDSLabelsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDSLabelsView.m; sourceTree = "<group>"; };
-		94DFD6BA10C7EF720003C4F1 /* PDSFileControler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDSFileControler.h; sourceTree = "<group>"; };
-		94DFD6BB10C7EF720003C4F1 /* PDSFileControler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDSFileControler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,14 +74,8 @@
 				256AC3D90F4B6AC300CF3369 /* PDSViewAppDelegate.m */,
 				94B4162A10C6FFDE00CD3091 /* AppControler.h */,
 				94B4162B10C6FFDE00CD3091 /* AppControler.m */,
-				94D5AEFC10C78D7200075645 /* PDSImageView.h */,
-				94D5AEFD10C78D7200075645 /* PDSImageView.m */,
 				94DFD63410C7C8D00003C4F1 /* PDSFile.h */,
 				94DFD63510C7C8D00003C4F1 /* PDSFile.m */,
-				94DFD63810C7CC810003C4F1 /* PDSLabelsView.h */,
-				94DFD63910C7CC810003C4F1 /* PDSLabelsView.m */,
-				94DFD6BA10C7EF720003C4F1 /* PDSFileControler.h */,
-				94DFD6BB10C7EF720003C4F1 /* PDSFileControler.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -239,10 +224,7 @@
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				256AC3DA0F4B6AC300CF3369 /* PDSViewAppDelegate.m in Sources */,
 				94B4162C10C6FFDE00CD3091 /* AppControler.m in Sources */,
-				94D5AEFE10C78D7200075645 /* PDSImageView.m in Sources */,
 				94DFD63610C7C8D00003C4F1 /* PDSFile.m in Sources */,
-				94DFD63A10C7CC810003C4F1 /* PDSLabelsView.m in Sources */,
-				94DFD6BC10C7EF720003C4F1 /* PDSFileControler.m in Sources */,
 				947D798C10C8BEAA007D445D /* NSObject+SBJSON.m in Sources */,
 				947D798D10C8BEAA007D445D /* NSString+SBJSON.m in Sources */,
 				947D798E10C8BEAA007D445D /* SBJSON.m in Sources */,

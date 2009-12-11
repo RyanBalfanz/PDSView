@@ -208,7 +208,7 @@
 		fRef = 94B4162B10C6FFDE00CD3091 /* AppControler.m */;
 		name = "AppControler.m: 23";
 		rLen = 0;
-		rLoc = 441;
+		rLoc = 478;
 		rType = 0;
 		vrLen = 446;
 		vrLoc = 389;
@@ -375,16 +375,16 @@
 	};
 	94B4162A10C6FFDE00CD3091 /* AppControler.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 370}}";
-			sepNavSelRange = "{210, 0}";
-			sepNavVisRange = "{0, 529}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 390}}";
+			sepNavSelRange = "{576, 0}";
+			sepNavVisRange = "{0, 582}";
 		};
 	};
 	94B4162B10C6FFDE00CD3091 /* AppControler.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 663}}";
-			sepNavSelRange = "{441, 0}";
-			sepNavVisRange = "{389, 446}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 715}}";
+			sepNavSelRange = "{633, 0}";
+			sepNavVisRange = "{338, 581}";
 		};
 	};
 	94D4C05C10C6EB280019C6C0 /* PDSView */ = {
@@ -434,17 +434,29 @@
 		indexTemplatePath = "";
 	};
 	94D5AEFC10C78D7200075645 /* PDSImageView.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = PDSImageView.h;
+		path = /Users/ryan/Dev/PDSView/PDSImageView.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 400}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 413}}";
 			sepNavSelRange = "{209, 0}";
 			sepNavVisRange = "{0, 218}";
 		};
 	};
 	94D5AEFD10C78D7200075645 /* PDSImageView.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = PDSImageView.m;
+		path = /Users/ryan/Dev/PDSView/PDSImageView.m;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1011, 780}}";
-			sepNavSelRange = "{1053, 0}";
-			sepNavVisRange = "{591, 740}";
+			sepNavSelRange = "{266, 0}";
+			sepNavVisRange = "{22, 674}";
 		};
 	};
 	94DFD63410C7C8D00003C4F1 /* PDSFile.h */ = {
@@ -458,18 +470,30 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1011, 3029}}";
 			sepNavSelRange = "{518, 0}";
-			sepNavVisRange = "{143, 591}";
+			sepNavVisRange = "{143, 590}";
 			sepNavWindowFrame = "{{15, 215}, {750, 558}}";
 		};
 	};
 	94DFD63810C7CC810003C4F1 /* PDSLabelsView.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = PDSLabelsView.h;
+		path = /Users/ryan/Dev/PDSView/PDSLabelsView.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 400}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 413}}";
 			sepNavSelRange = "{267, 0}";
 			sepNavVisRange = "{0, 293}";
 		};
 	};
 	94DFD63910C7CC810003C4F1 /* PDSLabelsView.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = PDSLabelsView.m;
+		path = /Users/ryan/Dev/PDSView/PDSLabelsView.m;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1011, 2314}}";
 			sepNavSelRange = "{5210, 0}";
@@ -477,15 +501,27 @@
 		};
 	};
 	94DFD6BA10C7EF720003C4F1 /* PDSFileControler.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = PDSFileControler.h;
+		path = /Users/ryan/Dev/PDSView/PDSFileControler.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 400}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 413}}";
 			sepNavSelRange = "{294, 0}";
 			sepNavVisRange = "{0, 300}";
 		};
 	};
 	94DFD6BB10C7EF720003C4F1 /* PDSFileControler.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = PDSFileControler.m;
+		path = /Users/ryan/Dev/PDSView/PDSFileControler.m;
+		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 400}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 413}}";
 			sepNavSelRange = "{443, 0}";
 			sepNavVisRange = "{0, 443}";
 		};
