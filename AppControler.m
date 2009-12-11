@@ -16,8 +16,6 @@
 // Handle a file dropped on the dock icon
 - (BOOL)application:(NSApplication *)sender openFile:(NSString *)path
 {
-	
-	// !! Do something here with the file path !!
 	[filenameField setStringValue:path];
 	[self updateViewsWithPDSFile:path];
 	return YES;
