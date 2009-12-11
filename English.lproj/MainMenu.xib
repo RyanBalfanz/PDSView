@@ -1318,7 +1318,7 @@
 			<object class="NSWindowTemplate" id="972006081">
 				<int key="NSWindowStyleMask">15</int>
 				<int key="NSWindowBacking">2</int>
-				<string key="NSWindowRect">{{122, 56}, {480, 681}}</string>
+				<string key="NSWindowRect">{{122, 66}, {480, 671}}</string>
 				<int key="NSWTFlags">1954021376</int>
 				<string key="NSWindowTitle">PDSView</string>
 				<string key="NSWindowClass">NSWindow</string>
@@ -1332,7 +1332,7 @@
 						<object class="NSTextField" id="662000358">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">270</int>
-							<string key="NSFrame">{{20, 639}, {332, 22}}</string>
+							<string key="NSFrame">{{20, 629}, {332, 22}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="163801314">
@@ -1370,7 +1370,7 @@
 						<object class="NSButton" id="962626598">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">265</int>
-							<string key="NSFrame">{{360, 637}, {100, 25}}</string>
+							<string key="NSFrame">{{360, 627}, {100, 25}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="255649991">
@@ -1423,7 +1423,7 @@
 													<string>public.url</string>
 												</object>
 											</object>
-											<string key="NSFrameSize">{252, 22}</string>
+											<string key="NSFrameSize">{252, 13}</string>
 											<reference key="NSSuperview" ref="283381619"/>
 											<object class="NSTextContainer" key="NSTextContainer" id="1028739408">
 												<object class="NSLayoutManager" key="NSLayoutManager">
@@ -1462,7 +1462,7 @@
 															<int key="NSColorSpace">6</int>
 															<string key="NSCatalogName">System</string>
 															<string key="NSColorName">selectedTextBackgroundColor</string>
-															<object class="NSColor" key="NSColor" id="988771107">
+															<object class="NSColor" key="NSColor">
 																<int key="NSColorSpace">3</int>
 																<bytes key="NSWhite">MC42NjY2NjY2NjY3AA</bytes>
 															</object>
@@ -1505,7 +1505,7 @@
 											<nil key="NSDelegate"/>
 										</object>
 									</object>
-									<string key="NSFrame">{{1, 1}, {252, 458}}</string>
+									<string key="NSFrame">{{1, 1}, {252, 448}}</string>
 									<reference key="NSSuperview" ref="515390738"/>
 									<reference key="NSNextKeyView" ref="205391172"/>
 									<reference key="NSDocView" ref="205391172"/>
@@ -1519,7 +1519,7 @@
 								<object class="NSScroller" id="782323397">
 									<reference key="NSNextResponder" ref="515390738"/>
 									<int key="NSvFlags">256</int>
-									<string key="NSFrame">{{253, 1}, {15, 458}}</string>
+									<string key="NSFrame">{{253, 1}, {15, 448}}</string>
 									<reference key="NSSuperview" ref="515390738"/>
 									<reference key="NSTarget" ref="515390738"/>
 									<string key="NSAction">_doScroller:</string>
@@ -1537,7 +1537,7 @@
 									<double key="NSPercent">0.94565218687057495</double>
 								</object>
 							</object>
-							<string key="NSFrame">{{20, 171}, {269, 460}}</string>
+							<string key="NSFrame">{{20, 171}, {269, 450}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSNextKeyView" ref="283381619"/>
 							<int key="NSsFlags">18</int>
@@ -1548,14 +1548,14 @@
 						<object class="NSCustomView" id="664097902">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">274</int>
-							<string key="NSFrame">{{20, 20}, {129, 141}}</string>
+							<string key="NSFrame">{{20, 20}, {129, 131}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<string key="NSClassName">PDSImageView</string>
 						</object>
 						<object class="NSCustomView" id="229818040">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{157, 18}, {132, 143}}</string>
+							<string key="NSFrame">{{157, 8}, {132, 143}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<string key="NSClassName">PDSLabelsView</string>
 						</object>
@@ -1574,7 +1574,7 @@
 									<string>NeXT TIFF v4.0 pasteboard type</string>
 								</object>
 							</object>
-							<string key="NSFrame">{{294, 15}, {169, 619}}</string>
+							<string key="NSFrame">{{294, 5}, {169, 619}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSImageCell" key="NSCell" id="969299337">
@@ -1587,34 +1587,8 @@
 							</object>
 							<bool key="NSEditable">YES</bool>
 						</object>
-						<object class="NSTextField" id="244519890">
-							<reference key="NSNextResponder" ref="439893737"/>
-							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{314, 316}, {129, 17}}</string>
-							<reference key="NSSuperview" ref="439893737"/>
-							<bool key="NSEnabled">YES</bool>
-							<object class="NSTextFieldCell" key="NSCell" id="39297755">
-								<int key="NSCellFlags">68288064</int>
-								<int key="NSCellFlags2">138413056</int>
-								<string key="NSContents">Drop Image Here</string>
-								<reference key="NSSupport" ref="1013744182"/>
-								<reference key="NSControlView" ref="244519890"/>
-								<object class="NSColor" key="NSBackgroundColor">
-									<int key="NSColorSpace">6</int>
-									<string key="NSCatalogName">System</string>
-									<string key="NSColorName">controlColor</string>
-									<reference key="NSColor" ref="988771107"/>
-								</object>
-								<object class="NSColor" key="NSTextColor">
-									<int key="NSColorSpace">6</int>
-									<string key="NSCatalogName">System</string>
-									<string key="NSColorName">controlTextColor</string>
-									<reference key="NSColor" ref="137727901"/>
-								</object>
-							</object>
-						</object>
 					</object>
-					<string key="NSFrameSize">{480, 681}</string>
+					<string key="NSFrameSize">{480, 671}</string>
 					<reference key="NSSuperview"/>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1280, 778}}</string>
@@ -2911,9 +2885,8 @@
 							<reference ref="662000358"/>
 							<reference ref="962626598"/>
 							<reference ref="515390738"/>
-							<reference ref="237760094"/>
 							<reference ref="664097902"/>
-							<reference ref="244519890"/>
+							<reference ref="237760094"/>
 							<reference ref="229818040"/>
 						</object>
 						<reference key="parent" ref="972006081"/>
@@ -3493,20 +3466,6 @@
 						<reference key="object" ref="969299337"/>
 						<reference key="parent" ref="237760094"/>
 					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">573</int>
-						<reference key="object" ref="244519890"/>
-						<object class="NSMutableArray" key="children">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="39297755"/>
-						</object>
-						<reference key="parent" ref="439893737"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">574</int>
-						<reference key="object" ref="39297755"/>
-						<reference key="parent" ref="244519890"/>
-					</object>
 				</object>
 			</object>
 			<object class="NSMutableDictionary" key="flattenedProperties">
@@ -3754,8 +3713,6 @@
 					<string>571.IBViewIntegration.shadowColor</string>
 					<string>571.IBViewIntegration.shadowOffsetHeight</string>
 					<string>571.IBViewIntegration.shadowOffsetWidth</string>
-					<string>573.IBPluginDependency</string>
-					<string>574.IBPluginDependency</string>
 					<string>577.IBPluginDependency</string>
 					<string>578.IBPluginDependency</string>
 					<string>58.IBPluginDependency</string>
@@ -3918,9 +3875,9 @@
 					<integer value="1"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
-					<string>{{336, 75}, {480, 681}}</string>
+					<string>{{547, 85}, {480, 671}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{336, 75}, {480, 681}}</string>
+					<string>{{547, 85}, {480, 671}}</string>
 					<integer value="1"/>
 					<string>{{33, 99}, {480, 360}}</string>
 					<string>{3.40282e+38, 3.40282e+38}</string>
@@ -4030,8 +3987,6 @@
 					<reference ref="137727901"/>
 					<real value="0.0"/>
 					<real value="0.0"/>
-					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>

@@ -43,6 +43,8 @@
 	{
 		NSLog(@"Did not get an image :(");
 	}
+	
+	[pdsFile release];
 }
 
 @end
