@@ -46,24 +46,24 @@
 
 - (IBAction)viewLabels:(id)sender
 {
-//	NSAlert *progressAlert = [[[NSAlert alloc] init] autorelease];
-//	[progressAlert addButtonWithTitle:@"OK"];
-//	[progressAlert addButtonWithTitle:@"Cancel"];
-//	[progressAlert addButtonWithTitle:@"Hide Output"];
-//	[progressAlert setMessageText:@"Running PyPDS command."];
-//	[progressAlert setInformativeText:@"You may set the path to PyPDS in the applicaton preferences."];
-//	[progressAlert setAlertStyle:NSWarningAlertStyle];
-//	[progressAlert setShowsSuppressionButton:YES];
-////    [progressAlert setAccessoryView:[sender sheetAccessoryView]];
-//
-//	// Display the alert as a popup.
-////	NSInteger result = [progressAlert runModal];
-//	
-//	// Display the alert as a sheet.
-//	[progressAlert beginSheetModalForWindow:[sender window]
-//						 modalDelegate:nil 
-//						didEndSelector:nil // @selector(alertDidEnd:returnCode:contextInfo:) 
-//						   contextInfo:nil];
+	NSAlert *progressAlert = [[[NSAlert alloc] init] autorelease];
+	[progressAlert addButtonWithTitle:@"OK"];
+	[progressAlert addButtonWithTitle:@"Cancel"];
+	[progressAlert addButtonWithTitle:@"Hide Output"];
+	[progressAlert setMessageText:@"Running PyPDS command."];
+	[progressAlert setInformativeText:@"You may set the path to PyPDS in the applicaton preferences."];
+	[progressAlert setAlertStyle:NSWarningAlertStyle];
+	[progressAlert setShowsSuppressionButton:YES];
+//    [progressAlert setAccessoryView:[sender sheetAccessoryView]];
+
+	// Display the alert as a popup.
+//	NSInteger result = [progressAlert runModal];
+	
+	// Display the alert as a sheet.
+	[progressAlert beginSheetModalForWindow:[sender window]
+						 modalDelegate:nil 
+						didEndSelector:nil // @selector(alertDidEnd:returnCode:contextInfo:) 
+						   contextInfo:nil];
 
 	[self updateViewsWithPDSFile:[filenameField stringValue]];
 }
