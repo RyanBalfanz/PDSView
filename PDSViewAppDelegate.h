@@ -10,8 +10,11 @@
 
 @interface PDSViewAppDelegate : NSObject <NSApplicationDelegate> {
     NSWindow *window;
+	NSView *sheetAccessoryView;
 }
 
 @property (assign) IBOutlet NSWindow *window;
+@property (assign) IBOutlet NSView *sheetAccessoryView;
+
 
 @end

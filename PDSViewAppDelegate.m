@@ -11,6 +11,7 @@
 @implementation PDSViewAppDelegate
 
 @synthesize window;
+@synthesize sheetAccessoryView;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
 	// Insert code here to initialize your application 
