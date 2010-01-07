@@ -14,6 +14,8 @@
 {
     if (self = [super init])
     {
+		//[NSUserDefaultsController sharedUserDefaultsController] withKeyPath:@"values.userName"
+		
 		stringBuffer = [[NSMutableString alloc] init];
 		[self getLabelsFromFile:filename];
 		[labelsTask waitUntilExit];

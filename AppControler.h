@@ -8,18 +8,28 @@
 
 #import <Cocoa/Cocoa.h>
 
+@class PreferenceController;
+@class SheetController;
 
-@interface AppControler : NSObject {
+@interface AppControler : NSObject
+{
 	IBOutlet NSTextField *filenameField;
 	IBOutlet NSButton *viewLabelsButton;	
 	IBOutlet NSTextView *outputView;
 	IBOutlet NSImageView *imageView;
 	
-	NSTask *task;
-	NSPipe *pipe;
+	PreferenceController *preferenceController;
+	SheetController *sheetController;
+	
+	//NSTask *task;
+	//NSPipe *pipe;
 }
+
+- (IBAction)showPreferencePanel:(id)sender;
+- (IBAction)showCommandSheet:(id)sender;
 - (IBAction)viewLabels:(id)sender;
 
 - (BOOL)application:(NSApplication *)sender openFile:(NSString *)path;
 - (void)updateViewsWithPDSFile:(NSString *)filename;
+
 @end

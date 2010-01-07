@@ -12,6 +12,10 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		942BCA7510EBE5380016AE81 /* SheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 942BCA7410EBE5380016AE81 /* SheetController.m */; };
+		942BCAE210EC154B0016AE81 /* CommandSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 942BCAE110EC154B0016AE81 /* CommandSheet.xib */; };
+		942BCAE510EC15C00016AE81 /* PreferencesPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 942BCAE410EC15C00016AE81 /* PreferencesPanel.xib */; };
+		942BCB1110EC42FB0016AE81 /* PreferenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 942BCB1010EC42FB0016AE81 /* PreferenceController.m */; };
 		947D798C10C8BEAA007D445D /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 947D798110C8BEAA007D445D /* NSObject+SBJSON.m */; };
 		947D798D10C8BEAA007D445D /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 947D798310C8BEAA007D445D /* NSString+SBJSON.m */; };
 		947D798E10C8BEAA007D445D /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 947D798510C8BEAA007D445D /* SBJSON.m */; };
@@ -35,6 +39,12 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* PDSView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PDSView-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* PDSView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDSView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		942BCA7310EBE5380016AE81 /* SheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SheetController.h; sourceTree = "<group>"; };
+		942BCA7410EBE5380016AE81 /* SheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SheetController.m; sourceTree = "<group>"; };
+		942BCAE110EC154B0016AE81 /* CommandSheet.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommandSheet.xib; sourceTree = "<group>"; };
+		942BCAE410EC15C00016AE81 /* PreferencesPanel.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreferencesPanel.xib; sourceTree = "<group>"; };
+		942BCB0F10EC42FB0016AE81 /* PreferenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenceController.h; sourceTree = "<group>"; };
+		942BCB1010EC42FB0016AE81 /* PreferenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferenceController.m; sourceTree = "<group>"; };
 		947D797F10C8BEAA007D445D /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
 		947D798010C8BEAA007D445D /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
 		947D798110C8BEAA007D445D /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
@@ -76,6 +86,10 @@
 				94B4162B10C6FFDE00CD3091 /* AppControler.m */,
 				94DFD63410C7C8D00003C4F1 /* PDSFile.h */,
 				94DFD63510C7C8D00003C4F1 /* PDSFile.m */,
+				942BCA7310EBE5380016AE81 /* SheetController.h */,
+				942BCA7410EBE5380016AE81 /* SheetController.m */,
+				942BCB0F10EC42FB0016AE81 /* PreferenceController.h */,
+				942BCB1010EC42FB0016AE81 /* PreferenceController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -133,6 +147,8 @@
 				8D1107310486CEB800E47090 /* PDSView-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				942BCAE110EC154B0016AE81 /* CommandSheet.xib */,
+				942BCAE410EC15C00016AE81 /* PreferencesPanel.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -211,6 +227,8 @@
 			files = (
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				942BCAE210EC154B0016AE81 /* CommandSheet.xib in Resources */,
+				942BCAE510EC15C00016AE81 /* PreferencesPanel.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +249,8 @@
 				947D798F10C8BEAA007D445D /* SBJsonBase.m in Sources */,
 				947D799010C8BEAA007D445D /* SBJsonParser.m in Sources */,
 				947D799110C8BEAA007D445D /* SBJsonWriter.m in Sources */,
+				942BCA7510EBE5380016AE81 /* SheetController.m in Sources */,
+				942BCB1110EC42FB0016AE81 /* PreferenceController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
