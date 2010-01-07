@@ -21,11 +21,13 @@
 		
 	NSMutableString *stringBuffer;
 	NSMutableData *dataBuffer;
-
 }
+
 - (NSString *)labels;
 - (NSImage *)image;
+
 - (id)initWithFile:(NSString *)filename;
 - (void)getLabelsFromFile:(NSString *)filename;
 - (void)getImageFromFile:(NSString *)filename;
+
 @end
